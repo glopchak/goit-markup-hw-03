@@ -239,7 +239,6 @@ body {
 }
 .team-list {
   display: flex;
-  margin-right: -30px;
 }
 .team-item:not(:last-child) {
   flex-basis: calc(100%-3 * 30px) / 3;
@@ -352,6 +351,10 @@ body {
 .footer-logo-light {
   color: var(--second-logo-color);
 }
+.footer-logo {
+  display: block;
+  margin-bottom: 20px;
+}
 /*адрес*/
 .address {
   font-style: normal;
@@ -364,9 +367,7 @@ body {
 .address:focus {
   color: var(--main-text-color);
 }
-.footer-list {
-  margin-top: 20px;
-}
+
 .footer-item:not(:last-child) {
   margin-bottom: 9px;
 }
